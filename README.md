@@ -1,23 +1,38 @@
-Machine learning models, including Logistic Regression, Random Forest, and Decision Tree models, can be applied in the context of the airline industry, particularly in the following ways:
 
-Predictive Maintenance: These models can predict when maintenance is required for aircraft components based on historical data. This helps in reducing unexpected breakdowns and improving flight safety.
 
-Route Optimization: Machine learning can be used to optimize flight routes based on weather conditions, air traffic, and fuel consumption, resulting in more efficient flights and cost savings.
+# 2015 Flight Delays and Cancellations Analysis
+## Introduction
+This project involves the analysis of flight delays and cancellations in the year 2015. The dataset contains information about flight cancellations, reasons for delays, cancellations by state, and various aspects related to flight operations. Our analysis aims to uncover insights and trends in flight data to improve flight management and passenger experience.
 
-Demand Forecasting: By analyzing historical booking data and other factors, these models can predict future demand for flights. Airlines can adjust pricing and schedules accordingly.
+## Data Analysis
+### Reasons for Flight Delays
+We investigated the reasons for flight delays and identified which reasons had the most cancellations. This analysis provides valuable information for airlines to address the primary causes of delays.
 
-Crew Scheduling: Models can assist in scheduling flight crews, taking into account factors like crew availability, flight duration, and labor laws.
+### Cancellations by State
+We examined cancellations by state, helping airlines identify regions with higher cancellation rates and improving service quality in those areas.
 
-Fraud Detection: Machine learning can help identify fraudulent transactions in flight bookings or frequent flyer programs, saving the airline money and protecting customer accounts.
+### Unique Airlines
+We determined how many unique airlines are present in the dataset and listed their names.
 
-Customer Sentiment Analysis: Analyzing social media and customer reviews can provide insights into passenger sentiment and help airlines address issues proactively.
+### Average Departure Delay
+We calculated the average departure delay for each airline in the dataset, allowing airlines to assess their performance and make necessary improvements.
 
-Safety Monitoring: Machine learning can analyze flight data and identify potential safety issues or trends for further investigation.
+### Origin Airport with Highest Departures
+We found the origin airport with the highest number of departures, which is crucial information for airlines and airport authorities.
 
-Delay Prediction: Models can predict flight delays based on historical data, allowing passengers to be informed in advance and airlines to take preventive actions.
+### Monthly Cancellation Analysis
+We conducted a monthly cancellation analysis, highlighting patterns and trends in flight cancellations. We also predicted cancellations based on the month with the minimum cancellations, aiding in proactive scheduling.
 
-Optimized Pricing: Airlines can use machine learning to set dynamic ticket prices based on factors like demand, competitor pricing, and seat availability.
+## Machine Learning Models
+In our analysis of flight data, we applied three machine learning models: K-Nearest Neighbors (KNN), Random Forest, and Decision Tree. The high accuracy values obtained from these models indicate their effectiveness in predicting flight cancellations.
 
-Customer Segmentation: Machine learning models can group passengers into segments based on their behavior and preferences. This helps airlines tailor their services and marketing efforts.
+- **K-Nearest Neighbors (KNN):** Achieved an accuracy of approximately 99.95%, highlighting its ability to make precise predictions based on the proximity of data points.
 
-Overall, machine learning models can enhance the operational efficiency and customer experience of airlines. They can help reduce costs, increase safety, and improve services, which are all essential in a highly competitive and complex industry like aviation
+- **Random Forest:** Demonstrated remarkable accuracy, with a score of approximately 99.95%, showcasing the strength of ensemble methods in handling complex datasets.
+
+- **Decision Tree:** While slightly lower in accuracy at approximately 99.94%, offers an interpretable and transparent approach for making predictions.
+
+In summary, all three models delivered exceptional accuracy, making them valuable tools for predicting flight cancellations and enhancing the efficiency of flight management systems. The choice of model can be tailored to specific requirements, considering factors such as interpretability, computational resources, and dataset characteristics. These results underscore the potential for machine learning to significantly improve flight scheduling and passenger experience.
+
+## Conclusion
+The analysis of 2015 Flight Delays and Cancellations provides valuable insights for airlines, airports, and aviation authorities. It addresses the root causes of delays, highlights cancellation patterns, and offers machine learning models for precise predictions. This information is essential for enhancing flight management and ensuring a better experience for passengers.
