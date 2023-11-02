@@ -48,4 +48,4 @@ https://public.tableau.com/app/profile/faryal.amir/viz/FlightDelayCauses_1698752
 https://public.tableau.com/app/profile/faryal.amir/viz/CancellationReasons_16987528761950/Dashboard2
 
 ## Conclusion
-The analysis of 2015 Flight Delays and Cancellations provides valuable insights for airlines, airports, and aviation authorities. It addresses the root causes of delays, highlights cancellation patterns, and offers machine learning models for precise predictions. This information is essential for enhancing flight management and ensuring a better experience for passengers.
+The analysis of 2015 Flight Delays and Cancellations provides valuable insights for airlines, airports, and aviation authorities. It addresses the root causes of delays, highlights cancellation patterns, and offers machine learning models for precise predictions. This information is essential for enhancing flight management and ensuring a better experience for passengers
